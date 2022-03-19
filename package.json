@@ -1,0 +1,27 @@
+{
+  "name": "projeto-jobfinder-comnodejs-express-sequelize",
+  "version": "1.0.0",
+  "description": "Um portal para programadores encontrarem vagas de trabalho",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "dev jobs",
+    "dev opportunity"
+  ],
+  "author": "I.castro",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "bootstrap": "^5.1.3",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "sass": "^1.49.9",
+    "sequelize": "^6.17.0",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
